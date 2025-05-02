@@ -1,5 +1,3 @@
-# Building a chat app in Go with WebSockets and Nitric
-
 ## What we'll be doing
 
 1. Use Nitric to create a WebSocket API
@@ -12,3 +10,9 @@
 
 4. Run locally for testing
 5. Deploy to AWS
+
+## Prerequisites
+
+- [Go](https://go.dev/dl/)
+- The [Nitric CLI](https://nitric.io/docs/get-started/installation)
+- An AWS account (optional)
