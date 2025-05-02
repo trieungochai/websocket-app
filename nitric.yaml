@@ -1,0 +1,13 @@
+name: websocket-app
+services:
+    - basedir: ""
+      match: services/*
+      runtime: go
+      start: go run ./$SERVICE_PATH/...
+batch-services: []
+websites: []
+runtimes:
+    go:
+        dockerfile: ./golang.dockerfile
+        context: ""
+        args: {}
